@@ -21,7 +21,7 @@ public class HomeworkHashMap {
             System.out.println(" 👉 ID: " + id + " Student Name is: " + studentInfo.get(id));
             return true;
         }else {
-            System.out.println("found");
+            System.out.println(" 👉 Not found");
             return false;
         }
     }
@@ -36,7 +36,7 @@ public class HomeworkHashMap {
             System.out.println(" 👉 successfully.");
             return true;
         }else {
-            System.out.println(" 👉 found.");
+            System.out.println(" 👉 Not found.");
             return false;
         }
     }
