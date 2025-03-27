@@ -37,7 +37,7 @@ public class Account implements BankingService {
     @Override
     public void showBalance() {
         System.out.println("-".repeat(35));
-        System.out.println("[+] Account : " + accountName + ": " + balance);
+        System.out.println("[+] Account " + accountName + ": " + balance);
     }
 
     @Override
