@@ -10,6 +10,7 @@ public class MovieClass {
         private Date time;
         private List<String> categories;
 
+        // constructor don't have return type and some name as class...ex: MovieClass
         public MovieClass(Integer id, String uuid, String title, String description, Date time, List<String>categories){
             setMovieDetail(id, uuid, title, description, time, categories);
         }

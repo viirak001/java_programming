@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class MethodNoParameter {
 // Ex_1:
 
-    /*
+
     // int sum : call return type ( public static + datatype: meaning int as datatype)
     public static int sum(){
         Scanner input = new Scanner(System.in);
@@ -22,7 +22,7 @@ public class MethodNoParameter {
         System.out.println("Sum : " + result);
     }
 
-     */
+
 
 
 
